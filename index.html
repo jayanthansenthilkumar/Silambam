@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silambam Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Preload critical carousel images -->
+    <link rel="preload" as="image" href="https://images.pexels.com/photos/7045577/pexels-photo-7045577.jpeg?auto=compress&cs=tinysrgb&w=1920" />
+</head>
+<body>
+    <div class="navbar-container">
+        <button class="toggle-btn" id="toggleBtn">
+            <i class="ri-menu-line"></i>
+        </button>
+        <nav class="side-navbar">
+            <ul class="nav-items">
+                <li><a href="#home"><i class="ri-home-line"></i> Home</a></li>
+                <li><a href="#about"><i class="ri-sword-line"></i> About</a></li>
+                <li><a href="#classes"><i class="ri-user-star-line"></i> Classes</a></li>
+                <li><a href="#masters"><i class="ri-team-line"></i> Masters</a></li>
+                <li><a href="#contact"><i class="ri-phone-line"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <section class="hero" id="home">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Martial Arts Training" loading="eager">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://images.pexels.com/photos/8032834/pexels-photo-8032834.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Martial Arts Performance" loading="eager">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://images.pexels.com/photos/7045577/pexels-photo-7045577.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Martial Arts Staff Training" loading="eager">
+            </div>
+            <div class="carousel-buttons">
+                <button class="carousel-btn prev"><i class="ri-arrow-left-s-line"></i></button>
+                <button class="carousel-btn next"><i class="ri-arrow-right-s-line"></i></button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h1>Master the Ancient Art of <span>Silambam</span></h1>
+            <p>Traditional training with modern techniques for all age groups</p>
+            <div class="hero-buttons">
+                <a href="#classes" class="btn primary-btn">Join Classes</a>
+                <a href="#about" class="btn secondary-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span>Silambam</span></h2>
+                <div class="divider">
+                    <span class="divider-line"></span>
+                    <i class="ri-sword-line"></i>
+                    <span class="divider-line"></span>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/7045461/pexels-photo-7045461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Silambam Training">
+                    <div class="experience-badge">
+                        <span class="years">25+</span>
+                        <span class="text">Years of Excellence</span>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Ancient Tamil Martial Art</h3>
+                    <p>Silambam is one of the oldest martial arts originating from Tamil Nadu, with a history dating back over 5,000 years. This ancient combat system focuses on using a bamboo staff (called "silam") as the primary weapon.</p>
+                    
+                    <h3>Our Training Philosophy</h3>
+                    <p>Our academy combines traditional Silambam techniques with modern training methodologies to create a comprehensive martial arts experience. We emphasize physical fitness, mental discipline, and spiritual growth.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="ri-mental-health-line"></i>
+                            <h4>Physical Fitness</h4>
+                            <p>Develop strength, flexibility, agility, and endurance through rigorous training</p>
+                        </div>
+                        <div class="feature">
+                            <i class="ri-focus-3-line"></i>
+                            <h4>Mental Discipline</h4>
+                            <p>Cultivate focus, patience, and strategic thinking skills</p>
+                        </div>
+                        <div class="feature">
+                            <i class="ri-heart-line"></i>
+                            <h4>Cultural Heritage</h4>
+                            <p>Connect with ancient Tamil traditions and philosophy</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#classes" class="btn primary-btn">Join Our Classes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="classes" class="classes-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Silambam <span>Branches</span></h2>
+                <div class="divider">
+                    <span class="divider-line"></span>
+                    <i class="ri-sword-line"></i>
+                    <span class="divider-line"></span>
+                </div>
+                <p class="section-desc">Explore the diverse branches of Silambam training available at our academy</p>
+            </div>
+            
+            <div class="classes-grid">
+                <!-- Pudhu Silambam -->
+                <div class="class-card">
+                    <div class="class-img">
+                        <img src="https://images.pexels.com/photos/8032997/pexels-photo-8032997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pudhu Silambam">
+                        <div class="class-level branch">Pudhu Silambam</div>
+                    </div>
+                    <div class="class-content">
+                        <h3>Modern Style</h3>
+                        <div class="class-info">
+                            <div class="info-item"><i class="ri-sword-line"></i> Staff Techniques</div>
+                            <div class="info-item"><i class="ri-user-line"></i> All Ages</div>
+                            <div class="info-item"><i class="ri-calendar-line"></i> Mon, Wed, Fri</div>
+                        </div>
+                        <p>A contemporary approach to Silambam that balances traditional roots with competitive applications. Features fluid movements and practical self-defense techniques.</p>
+                        <button class="class-btn">View Branch</button>
+                    </div>
+                </div>
+
+                <!-- Panjei Silambam -->
+                <div class="class-card">
+                    <div class="class-img">
+                        <img src="https://images.pexels.com/photos/7045554/pexels-photo-7045554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Panjei Silambam">
+                        <div class="class-level branch">Panjei Silambam</div>
+                    </div>
+                    <div class="class-content">
+                        <h3>Traditional Style</h3>
+                        <div class="class-info">
+                            <div class="info-item"><i class="ri-ancient-gate-line"></i> Classic Forms</div>
+                            <div class="info-item"><i class="ri-user-line"></i> Ages 12+</div>
+                            <div class="info-item"><i class="ri-calendar-line"></i> Tue, Thu, Sat</div>
+                        </div>
+                        <p>The most traditional form of Silambam focusing on authentic techniques passed down through generations. Emphasizes discipline and adherence to ancient principles.</p>
+                        <button class="class-btn">View Branch</button>
+                    </div>
+                </div>
+
+                <!-- Kuravanji Silambam -->
+                <div class="class-card">
+                    <div class="class-img">
+                        <img src="https://images.pexels.com/photos/8033071/pexels-photo-8033071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kuravanji Silambam">
+                        <div class="class-level branch">Kuravanji Silambam</div>
+                    </div>
+                    <div class="class-content">
+                        <h3>Performance Art</h3>
+                        <div class="class-info">
+                            <div class="info-item"><i class="ri-footprint-line"></i> Rhythmic Style</div>
+                            <div class="info-item"><i class="ri-user-line"></i> Ages 10+</div>
+                            <div class="info-item"><i class="ri-calendar-line"></i> Wed, Sat</div>
+                        </div>
+                        <p>Combines martial prowess with artistic expression, focusing on choreographed routines and rhythmic movements. Perfect for those interested in both combat and performance.</p>
+                        <button class="class-btn">View Branch</button>
+                    </div>
+                </div>
+
+                <!-- Kombukkaripudukutthu Silambam -->
+                <div class="class-card">
+                    <div class="class-img">
+                        <img src="https://images.pexels.com/photos/8364026/pexels-photo-8364026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kombukkaripudukutthu Silambam">
+                        <div class="class-level branch">Kombukkaripudukutthu</div>
+                    </div>
+                    <div class="class-content">
+                        <h3>Combat Focused</h3>
+                        <div class="class-info">
+                            <div class="info-item"><i class="ri-boxing-line"></i> Combat Techniques</div>
+                            <div class="info-item"><i class="ri-user-line"></i> Ages 14+</div>
+                            <div class="info-item"><i class="ri-calendar-line"></i> Mon, Thu</div>
+                        </div>
+                        <p>Emphasizes practical combat applications and effective striking techniques. Focuses on developing defensive strategies and real-world self-defense capabilities.</p>
+                        <button class="class-btn">View Branch</button>
+                    </div>
+                </div>
+                
+                <!-- Varimai Silambam -->
+                <div class="class-card">
+                    <div class="class-img">
+                        <img src="https://images.pexels.com/photos/7045431/pexels-photo-7045431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Varimai Silambam">
+                        <div class="class-level branch">Varimai Silambam</div>
+                    </div>
+                    <div class="class-content">
+                        <h3>Strength-Based Style</h3>
+                        <div class="class-info">
+                            <div class="info-item"><i class="ri-heart-pulse-line"></i> Power Training</div>
+                            <div class="info-item"><i class="ri-user-line"></i> Ages 16+</div>
+                            <div class="info-item"><i class="ri-calendar-line"></i> Tue, Fri</div>
+                        </div>
+                        <p>Focuses on developing physical strength and powerful striking capabilities. Builds endurance and physical conditioning through intensive staff training exercises.</p>
+                        <button class="class-btn">View Branch</button>
+                    </div>
+                </div>
+                
+                <!-- Silambam Kuthuvarisai -->
+                <div class="class-card">
+                    <div class="class-img">
+                        <img src="https://images.pexels.com/photos/7045558/pexels-photo-7045558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Silambam Kuthuvarisai">
+                        <div class="class-level branch">Kuthuvarisai</div>
+                    </div>
+                    <div class="class-content">
+                        <h3>Empty-Hand Techniques</h3>
+                        <div class="class-info">
+                            <div class="info-item"><i class="ri-hand-coin-line"></i> Hand Combat</div>
+                            <div class="info-item"><i class="ri-user-line"></i> Ages 12+</div>
+                            <div class="info-item"><i class="ri-calendar-line"></i> Mon, Wed, Sat</div>
+                        </div>
+                        <p>Incorporates empty-hand fighting techniques alongside staff training. Provides a comprehensive martial arts education combining weapons and unarmed combat.</p>
+                        <button class="class-btn">View Branch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Certifications Section -->
+    <section id="awards" class="awards-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Awards & <span>Certifications</span></h2>
+                <div class="divider">
+                    <span class="divider-line"></span>
+                    <i class="ri-award-line"></i>
+                    <span class="divider-line"></span>
+                </div>
+                <p class="section-desc">Recognition of our academy's excellence in Silambam training and competition</p>
+            </div>
+
+            <div class="awards-container">
+                <div class="achievement-categories">
+                    <div class="category-tab active" data-category="tournaments">
+                        <i class="ri-trophy-line"></i>
+                        <span>Tournament Victories</span>
+                    </div>
+                    <div class="category-tab" data-category="certifications">
+                        <i class="ri-file-list-3-line"></i>
+                        <span>Official Certifications</span>
+                    </div>
+                    <div class="category-tab" data-category="recognition">
+                        <i class="ri-medal-line"></i>
+                        <span>Special Recognition</span>
+                    </div>
+                </div>
+
+                <div class="awards-content">
+                    <!-- Tournament Victories -->
+                    <div class="awards-category active" id="tournaments">
+                        <div class="awards-grid">
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/6253025/pexels-photo-6253025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="National Championship">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon gold">
+                                        <i class="ri-trophy-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>National Silambam Championship</h3>
+                                        <p>Gold Medal - Senior Division</p>
+                                        <span class="award-year">2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/8032942/pexels-photo-8032942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="State Tournament">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon gold">
+                                        <i class="ri-trophy-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Tamil Nadu State Tournament</h3>
+                                        <p>First Place - Team Performance</p>
+                                        <span class="award-year">2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045694/pexels-photo-7045694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="International Festival">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon silver">
+                                        <i class="ri-trophy-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>International Martial Arts Festival</h3>
+                                        <p>Silver Medal - Traditional Weapons</p>
+                                        <span class="award-year">2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045417/pexels-photo-7045417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Junior Championship">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon gold">
+                                        <i class="ri-trophy-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>South Asian Championship</h3>
+                                        <p>Gold Medal - Junior Division</p>
+                                        <span class="award-year">2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certifications -->
+                    <div class="awards-category" id="certifications">
+                        <div class="awards-grid">
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/6253010/pexels-photo-6253010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Martial Arts Federation">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon cert">
+                                        <i class="ri-file-list-3-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Indian Martial Arts Federation</h3>
+                                        <p>Certified Training Center - Highest Grade</p>
+                                        <span class="award-year">2023-2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045580/pexels-photo-7045580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tamil Nadu Sports Development">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon cert">
+                                        <i class="ri-file-list-3-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Tamil Nadu Sports Development Authority</h3>
+                                        <p>Accredited Silambam Academy</p>
+                                        <span class="award-year">2022-2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045580/pexels-photo-7045580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="International Martial Arts Council">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon cert">
+                                        <i class="ri-file-list-3-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>International Traditional Martial Arts Council</h3>
+                                        <p>Recognized Preservation Institute</p>
+                                        <span class="award-year">2021-2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045580/pexels-photo-7045580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ministry of Sports">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon cert">
+                                        <i class="ri-file-list-3-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Ministry of Sports & Youth Affairs</h3>
+                                        <p>Qualified Training Center</p>
+                                        <span class="award-year">2020-2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Special Recognition -->
+                    <div class="awards-category" id="recognition">
+                        <div class="awards-grid">
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045580/pexels-photo-7045580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cultural Heritage Award">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon special">
+                                        <i class="ri-medal-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Cultural Heritage Preservation</h3>
+                                        <p>Excellence in Traditional Arts Promotion</p>
+                                        <span class="award-year">2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045580/pexels-photo-7045580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Youth Development Award">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon special">
+                                        <i class="ri-medal-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Youth Development Award</h3>
+                                        <p>Outstanding Contribution to Youth Training</p>
+                                        <span class="award-year">2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045580/pexels-photo-7045580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Best Silambam Academy">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon special">
+                                        <i class="ri-medal-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Best Silambam Academy</h3>
+                                        <p>Recognized by National Martial Arts Association</p>
+                                        <span class="award-year">2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="award-card">
+                                <div class="award-img">
+                                    <img src="https://images.pexels.com/photos/7045580/pexels-photo-7045580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Community Service Recognition">
+                                </div>
+                                <div class="award-content">
+                                    <div class="award-icon special">
+                                        <i class="ri-medal-line"></i>
+                                    </div>
+                                    <div class="award-details">
+                                        <h3>Community Service Recognition</h3>
+                                        <p>Promoting Physical Fitness in Local Schools</p>
+                                        <span class="award-year">2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

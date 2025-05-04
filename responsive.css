@@ -1,0 +1,334 @@
+@media screen and (max-width: 992px) {
+    .navbar-container {
+        left: 15px;
+    }
+    
+    .side-navbar {
+        width: 70px;
+    }
+    
+    .content {
+        margin-left: 200px;
+    }
+
+    .about-section {
+        padding: 80px 0;
+    }
+    
+    .about-content {
+        gap: 30px;
+    }
+    
+    .experience-badge {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .experience-badge .years {
+        font-size: 1.8rem;
+    }
+    
+    .experience-badge .text {
+        font-size: 0.7rem;
+    }
+
+    .classes-section {
+        padding: 80px 0;
+    }
+    
+    .classes-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* Awards Section Responsive Styles */
+    .awards-section {
+        padding: 80px 0;
+    }
+    
+    .achievement-categories {
+        gap: 8px;
+    }
+    
+    .category-tab {
+        padding: 10px 20px;
+    }
+    
+    .awards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+    }
+    
+    .navbar-container {
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        height: 0;
+    }
+    
+    .side-navbar {
+        width: 0;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        margin: 0;
+        padding: 20px 0;
+    }
+    
+    .side-navbar.active {
+        width: 250px;
+        visibility: visible;
+        opacity: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    .toggle-btn {
+        display: block;
+        z-index: 2000;
+    }
+    
+    .content {
+        margin-left: 0;
+    }
+    
+    .nav-items {
+        padding-top: 70px;
+    }
+    
+    .nav-items li {
+        margin: 10px 0;
+    }
+    
+    .nav-items li a {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 12px 20px;
+        margin: 0 15px;
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .nav-items li a i {
+        margin: 0 15px 0 0;
+        font-size: 1.2rem;
+    }
+    
+    .nav-items li a:hover {
+        transform: translateX(5px);
+        background-color: rgba(255,255,255,0.1);
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+    }
+    
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+    
+    .carousel-indicators {
+        bottom: 20px;
+    }
+    
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+
+    .about-section {
+        padding: 60px 0;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .about-content {
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .about-image {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .about-features {
+        flex-direction: column;
+    }
+    
+    .feature {
+        width: 100%;
+    }
+    
+    .experience-badge {
+        bottom: -15px;
+        right: 0;
+    }
+
+    .classes-section {
+        padding: 60px 0;
+    }
+    
+    .section-desc {
+        font-size: 1rem;
+    }
+    
+    .classes-grid {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .class-img {
+        height: 180px;
+    }
+
+    /* Awards Section Responsive Styles */
+    .awards-section {
+        padding: 60px 0;
+    }
+    
+    .achievement-categories {
+        flex-direction: column;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .category-tab {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .awards-grid {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .award-img {
+        height: 160px;
+    }
+    
+    .award-content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .side-navbar.active {
+        width: 100%;
+    }
+    
+    .toggle-btn {
+        top: 15px;
+        right: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero {
+        padding: 0 15px;
+    }
+    
+    .carousel-buttons {
+        padding: 0 10px;
+    }
+    
+    .carousel-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .about-section {
+        padding: 40px 0;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .experience-badge {
+        width: 90px;
+        height: 90px;
+        bottom: -10px;
+        right: -10px;
+    }
+    
+    .experience-badge .years {
+        font-size: 1.6rem;
+    }
+    
+    .experience-badge .text {
+        font-size: 0.6rem;
+    }
+
+    .classes-section {
+        padding: 40px 0;
+    }
+    
+    .class-content {
+        padding: 20px 15px;
+    }
+    
+    .class-info {
+        gap: 10px;
+    }
+    
+    .info-item {
+        font-size: 0.8rem;
+    }
+
+    /* Awards Section Responsive Styles */
+    .awards-section {
+        padding: 40px 0;
+    }
+    
+    .award-card {
+        padding: 20px 15px;
+    }
+
+    .award-img {
+        height: 140px;
+    }
+    
+    .award-content {
+        padding: 15px;
+    }
+}
