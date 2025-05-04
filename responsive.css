@@ -57,6 +57,20 @@
     .awards-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Masters Section Responsive Styles */
+    .masters-section {
+        padding: 80px 0;
+    }
+    
+    .masters-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .master-img {
+        height: 280px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -246,6 +260,26 @@
     .award-content {
         padding: 20px;
     }
+
+    /* Masters Section Responsive Styles */
+    .masters-section {
+        padding: 60px 0;
+    }
+    
+    .masters-grid {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .master-social {
+        transform: translateY(0);
+    }
+    
+    .master-img {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -330,5 +364,18 @@
     
     .award-content {
         padding: 15px;
+    }
+
+    /* Masters Section Responsive Styles */
+    .masters-section {
+        padding: 40px 0;
+    }
+    
+    .master-img {
+        height: 300px;
+    }
+    
+    .master-info {
+        padding: 20px 15px;
     }
 }

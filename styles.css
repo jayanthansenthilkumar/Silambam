@@ -826,3 +826,124 @@ body {
     border-radius: 20px;
     background-color: rgba(209, 171, 62, 0.1);
 }
+
+/* Masters Section */
+.masters-section {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.masters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.master-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.master-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    border-color: rgba(209, 171, 62, 0.3);
+}
+
+.master-img {
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+}
+
+.master-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.master-card:hover .master-img img {
+    transform: scale(1.05);
+}
+
+.master-social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 0;
+    background: linear-gradient(to top, rgba(0, 75, 160, 0.8), transparent);
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+}
+
+.master-card:hover .master-social {
+    transform: translateY(0);
+}
+
+.master-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.master-social a:hover {
+    background-color: #D1AB3E;
+    transform: translateY(-5px);
+}
+
+.master-info {
+    padding: 25px;
+}
+
+.master-info h3 {
+    color: #004BA0;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.master-title {
+    display: block;
+    color: #D1AB3E;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.master-info p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.master-specialties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.master-specialties span {
+    background-color: rgba(0, 75, 160, 0.08);
+    color: #004BA0;
+    padding: 5px 12px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
