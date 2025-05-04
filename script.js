@@ -234,4 +234,56 @@ document.addEventListener('DOMContentLoaded', function() {
             // window.location.href = `/class-details.html?class=${encodeURIComponent(className)}`;
         });
     });
+
+    // Handle contact form submission
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const branch = document.getElementById('branch').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real application, you would send this data to a server
+            console.log('Form submitted:', { name, email, phone, branch, message });
+            
+            // Show success message (for demo purposes)
+            alert('Thank you for your message! We will contact you shortly.');
+            
+            // Reset form
+            contactForm.reset();
+        });
+    }
+
+    // Go to top button
+    const goToTopBtn = document.getElementById('goToTop');
+    
+    // Show button when user scrolls down 300px from the top
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            goToTopBtn.classList.add('active');
+        } else {
+            goToTopBtn.classList.remove('active');
+        }
+    });
+    
+    // Scroll to top when button is clicked
+    if (goToTopBtn) {
+        goToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+    // Update copyright year
+    const currentYearElement = document.getElementById('currentYear');
+    if (currentYearElement) {
+        currentYearElement.textContent = new Date().getFullYear();
+    }
 });
